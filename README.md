@@ -20,10 +20,18 @@
 * 非常時（GitHubでなにかあったとき)
     * 主リポジトリとして220サーバを使う
 
+---
 
-## 現状での課題
+# ワークフロー
 
-### euc-jp が化ける
+* こういう運用になる
+    * [GitHub初心者はForkしない方のPull Requestから入門しよう // qnyp blog](http://blog.qnyp.com/2013/05/28/pull-request-for-github-beginners/)
+
+---
+
+# 現状での課題
+
+## euc-jp が化ける
 
 * サマリー画面では化ける  
 * whole file を表示して、編集するときは化けない
@@ -39,6 +47,8 @@
        * http://hideack.hatenablog.com/entry/2013/05/16/233407
 
 
-## 懸念
+---
+
+# 懸念
 
 * GitHubからpushするより、220がGitHubからpullする方がセキュリティ的には安心？

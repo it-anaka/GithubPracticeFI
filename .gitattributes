@@ -1,1 +1,2 @@
 *.txt encoding=euc-jp
+*.php .gitattributes
