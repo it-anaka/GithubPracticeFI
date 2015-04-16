@@ -19,6 +19,10 @@
          $this->pdo->query($sql);
          return "やあ $what";
      }
+     /**
+      * あれこれ日本語でコメントを入れてみる
+      * このくらい日本語があればわかってくれるかな？
+      */
      public function what()
      {
          $sql = "SELECT what FROM hello";
