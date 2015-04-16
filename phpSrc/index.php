@@ -6,3 +6,4 @@
 
 echo "hello, world";
 echo "edited with Brackets";
+echo "edited with TextMate2";
