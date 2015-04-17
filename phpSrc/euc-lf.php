@@ -17,12 +17,12 @@
      {
          $sql = "INSERT INTO hello VALUES (" . $this->pdo->quote($what) . ")";
          $this->pdo->query($sql);
-         return "やあ $what";
+         return "�䤢 $what";
      }
      /**
-      * あれこれ日本語でコメントを入れてみる
-      * このくらい日本語があればわかってくれるかな？
-      * →どうやらわかってくれるようですよ。 ※この部分は、GitHubで入力しました。
+      * ���줳�����ܸ�ǥ����Ȥ�����Ƥߤ�
+      * ���Τ��餤���ܸ줬����Ф狼�äƤ���뤫�ʡ�
+      * ���ɤ����狼�äƤ����褦�Ǥ��衣 ��������ʬ�ϡ�GitHub�����Ϥ��ޤ�����
       */
      public function what()
      {
