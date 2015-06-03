@@ -52,21 +52,20 @@ https://github.com/hidk/GithubPracticeFI
 1. masterから新しいブランチを作成
 2. 新しいブランチでどんどんcommit  & 適宜sync
 3. masterに対してpull request
-    * [wip]ではじまるコメントなら、マージはしない
+    * [wip]ではじまるコメントなら、マージせず、全員でレビュー
         * wip = Work In Progress
-        * 開発者全員で意見を出す。意見を読む
     * リリース用のpull request
         * リリース担当がレビューして、merge
 4. リリース担当が、現行のmercurialのリリース用リポジトリにpush
+5. 開発に使ったリポジトリを切り離す
 
 ***
 ###Githubフロー備考
 
-* 簡単な修正なら直接masterを修正してpull requstを出す手もあり
 * 基本的に制作も開発も同じフローで作業する
 * リリース用のpull requestを出す前に、以下を確認のこと
 	* バグがない(テスト大事)
-	* master にマージ可能(masterをマージしておく)
+	* master にマージ可能(masterからマージしておく)
 
 ***
 ###コミットメッセージ書式
@@ -86,6 +85,7 @@ DBのレプリケーションにより、ソート結果
 した。
 
 ```
+
 ***
 
 ###Githubフローで行わないようになること
@@ -94,10 +94,19 @@ DBのレプリケーションにより、ソート結果
 
 ***
 
+##■Github懸念点
+* リポジトリサイズが1GBを超えると、もう少し控えめにしてくれと、要請されるらしい
+    * その場合は、Githubクローンを使うかな？ → GitLab, GitBucket
+    * BitBucketを使う手もあるが、2GBが限度らしい
+        * https://confluence.atlassian.com/pages/viewpage.action?pageId=273877699
+
+***
+
 ##■Githubの導入
 * mercurial管理 → github管理へ切り替えます
 * 自習会・勉強会でGithubフローが問題なく利用できるようになるまで練習します
 * 2015年6月後半から7月くらいが目処
+
 ***
 
 おしまい
