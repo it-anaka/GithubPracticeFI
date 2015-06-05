@@ -2,7 +2,6 @@
 
 ***
 ##このドキュメントについて
-
 * 下記アプリを使うと、プレゼンテーションモードで表示できます。
 	[Haroopad - The Next Document processor based on Markdown](http://pad.haroopress.com/)
 	* WindowsでもMacでもOK
@@ -13,14 +12,14 @@
 * コードレビューが圧倒的にやりやすい
     * pull requestを使ったフロー
     * 書きたい場所にすぐ書けるコメントツール
-
+* 画像の変更も分かりやすく比較可能
 ***
 
-## コードレビューで達成したいもの
-
+###コードレビューで達成したいもの
 * コードを読み書きする能力の向上
-* コードの品質・安全性の向上
-* → もっと早く、もっと大きく「育ち・育てる環境」の構築
+	* JavaScript(altJS)やCSS(altCSS)力の向上も
+	* もっと早く、もっと大きく「育ち・育てる環境」の構築
+* 製品の品質・安全性の向上
 
 ***
 
@@ -30,17 +29,17 @@
 
 このあたりは、もうお済みですね？
 
-##■Githubからクローン
+##■Githubからリポジトリをクローン
 
 * ここからclone
-https://github.com/hidk/GithubPracticeFI
+https://github.com/hidk/GithubPracticeFI.git
 
 ***
 
 ##■Githubフロー
 
 ###概要
-* masterブランチ = 本番と完全一致
+* masterブランチ = 本番と完全一致。お触り禁止
 * 名前付きブランチ = 作業中ブランチ
 * 本番リリース = masterブランチへのpull request
 * 要するにこんな感じ
@@ -61,7 +60,6 @@ https://github.com/hidk/GithubPracticeFI
 
 ***
 ###Githubフロー備考
-
 * 基本的に制作も開発も同じフローで作業する
 * リリース用のpull requestを出す前に、以下を確認のこと
 	* バグがない(テスト大事)
@@ -70,7 +68,7 @@ https://github.com/hidk/GithubPracticeFI
 ***
 ###コミットメッセージ書式
 
-1. #Redmineチケット番号 (空白) 内容を完結に
+1. `#Redmineチケット番号` (空白) 内容を完結に
 2. (空行)
 3. 詳細内容。なぜそれをするのか？
 
@@ -96,15 +94,14 @@ DBのレプリケーションにより、ソート結果
 
 ##■Github懸念点
 * リポジトリサイズが1GBを超えると、もう少し控えめにしてくれと、要請されるらしい
-    * その場合は、Githubクローンを使うかな？ → GitLab, GitBucket
-    * BitBucketを使う手もあるが、2GBが限度らしい
-        * https://confluence.atlassian.com/pages/viewpage.action?pageId=273877699
-
+	* Githubが大容量ファイル拡張を近々正式サポートする予定なのでそれまで耐える方針
+	* どうしようもない場合は、Githubクローンを使うか？ → GitLab, GitBucket
+		* 使うとしたらGitLabが有望。ただしある程度「黒い窓」と仲良くなる必要あり
 ***
 
 ##■Githubの導入
-* mercurial管理 → github管理へ切り替えます
-* 自習会・勉強会でGithubフローが問題なく利用できるようになるまで練習します
+* mercurial管理 → github管理へ切り替える
+* 自習会・勉強会で、Githubフローが問題なく利用できるようになるまで練習を
 * 2015年6月後半から7月くらいが目処
 
 ***
@@ -114,4 +111,4 @@ DBのレプリケーションにより、ソート結果
 さっそく練習しましょう
 
 今回の砂場
-https://github.com/hidk/GithubPracticeFI
+https://github.com/hidk/GithubPracticeFI.git
