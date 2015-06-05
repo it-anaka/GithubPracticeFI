@@ -56,7 +56,7 @@ https://github.com/hidk/GithubPracticeFI.git
     * リリース用のpull request
         * リリース担当がレビューして、merge
 4. リリース担当が、現行のmercurialのリリース用リポジトリにpush
-5. 開発に使ったリポジトリを切り離す
+5. 開発に使ったブランチを切り離す
 
 ***
 ###Githubフロー備考
