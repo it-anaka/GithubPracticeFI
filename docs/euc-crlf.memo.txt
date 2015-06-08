@@ -1,5 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="euc_jp">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/XXXX.css" media="all">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/XXXX.js"></script>
+</head>
+<body>
+</body>
+</html>
+
 フォークしたリポジトリでの運用テスト。
 ひとまず新しいブランチを切って、この文書を追加してみた。
 
 当然ながら、publishはできる。
 Github上のブランチも増えた。
+
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
+文字化けが激しくて、コードレビューができない。
