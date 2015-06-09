@@ -1,0 +1,2 @@
+csvtest,euc,cr/lf
+EUCで日本語を書いてみます,'.gitattributes'の設定では、csvはcp932にするようにしてあります,いかがでしょうか？
